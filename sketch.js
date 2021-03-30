@@ -49,7 +49,7 @@ function setup(){
   key4.scale=0.03;
   key4.visible=false;
 
-  key5=createSprite(830,130,10,10);//480,585
+  key5=createSprite(900,130,10,10);//480,585
   key5.addImage(obj);
   key5.scale=0.03;
   key5.visible=false;
