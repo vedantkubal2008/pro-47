@@ -108,7 +108,7 @@ function draw(){
     text("Keys collected : "+score,600,50)
   }
   var abc=input.value();
-  if(abc==="Brasilia"){
+  if(abc==="Brasilia" ||abc==="brasilia"){
     passer_1.destroy();
     input.hide();
 
@@ -219,7 +219,7 @@ console.log(man.x);
 input2.style('1500', '700px');
      input2.position(150,50);
      var xyz=input2.value(); 
-     if(xyz==="Brasilia"){
+     if(xyz==="Brasilia"||xyz==="brasilia"){
    key6.visible=true;
    key7.visible=true;
    key8.visible=true;
@@ -247,7 +247,7 @@ if(score>=9){
    ba.visible=true
    man.visible=false;
    textSize(35);
-  text("You won!! This badge is yours",300,700)
+  text("You won!! This badge is yours...",285,700)
 }
    }
     }
