@@ -269,6 +269,7 @@ if(score>=9){
  drawSprites();
   
 }
+//custom functions.
 function man_movement(){
   if (keyDown(UP_ARROW)){
       man.scale=  man.scale-0.02;
